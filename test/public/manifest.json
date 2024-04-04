@@ -1,0 +1,74 @@
+{
+    "name": "Snapdrop JP",
+    "id": "/",
+    "short_name": "Snapdrop JP",
+    "lang": "ja",
+    "dir": "ltr",
+    "categories": ["productivity", "utilities"],
+    "description": "画像、動画、PDF、URL 等を同一ネットワーク上の端末間で素早く安全に共有できるアプリ",
+    "icons": [{
+        "src": "images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },{
+        "src": "images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    },{
+        "src": "images/android-chrome-192x192-maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+    },{
+        "src": "images/android-chrome-512x512-maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },{
+        "src": "images/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+    }],
+    "background_color": "#efefef",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "natural",
+    "theme_color": "#3367d6",
+    "launch_handler": {
+        "client_mode": "auto"
+    },    
+    "share_target": {
+        "method":"GET",
+        "action": "/?share_target",
+        "params": {
+            "title": "title",
+            "text": "text",
+            "url": "url"
+        }
+    },
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "screenshots" : [
+        {
+            "src": "images/screenshot-1.jpg",
+            "sizes": "1080x2400",
+            "type": "image/jpg"
+        },
+        {
+            "src": "images/screenshot-2.jpg",
+            "sizes": "1080x2400",
+            "type": "image/jpg"
+        },
+        {
+            "src": "images/screenshot-3.jpg",
+            "sizes": "1080x2400",
+            "type": "image/jpg"
+        },
+        {
+            "src": "images/screenshot-4.jpg",
+            "sizes": "1080x2400",
+            "type": "image/jpg"
+        }
+    ]
+}
